@@ -1,0 +1,55 @@
+.toggleform {
+  margin: 7px 0;
+  .btn-updete {
+    color: #000;
+    font-size: 17px;
+  }
+}
+
+.toggleform input {
+  height: 35px;
+  padding: 10px 7px;
+  font-size: 20px;
+  @media (max-width: 1220px) {
+    width: 59%;
+  }
+}
+
+.toggleform span {
+  width: 58%;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  @media (max-width: 1220px) {
+    width: 35%;
+  }
+  @media (max-width: 925px) {
+    width: 100%;
+  }
+}
+button {
+  margin-left: 1%;
+  width: 20%;
+  color: #ffe;
+  padding: 8px !important;
+  font-size: 17px;
+  // @media (max-width: 1220px) {
+  //   width: 30%;
+  // color: red;
+  // }
+  @media (max-width: 925px) {
+    width: 40%;
+  }
+  @media (max-width: 1250px) {
+    width: 30%;
+  }
+  @media (max-width: 925px) {
+    width: 40%;
+  }
+}
+.delete {
+  background: #e34547;
+}
+.edit {
+  background: #676567;
+}
